@@ -1,0 +1,39 @@
+﻿{
+ "data": [
+    {
+      "Name": "Galaxy S7",
+      "Specification": "Hybrid Dual SIM, microSD up to 200GB",
+      "Price": "20000",
+      "ImageUrl": "../../img/image2.jpg",
+      "Description": "Motion Panorama, Selfie Flash Water & dust resistant (IP68)"
+    },
+  {
+    "Name": "Galaxy S6",
+    "Specification": "ACDDD Dual SIM, microSD up to 200GB",
+    "Price": "400000",
+    "ImageUrl": "../../img/image3.jpg",
+    "Description": "asdfsdfa Panorama, Selfie Flash Water & dust resistant (IP68)"
+  },
+  {
+    "Name": "Galaxy S7",
+    "Specification": "Hybrid Dual SIM, microSD up to 200GB",
+    "Price": "20000",
+    "ImageUrl": "../../img/image2.jpg",
+    "Description": "Motion Panorama, Selfie Flash Water & dust resistant (IP68)"
+  },
+  {
+    "Name": "Note 5",
+    "Specification": "Hybrid Dual SIM, microSD up to 200GB",
+    "Price": "40000",
+    "ImageUrl": "../../img/image2.jpg",
+    "Description": "Motion Panorama, Selfie Flash Water & dust resistant (IP68)"
+  },
+   {
+      "Name": "xxxxx",
+      "Specification": "Hybrid Dual SIM, microSD up to 200GB",
+      "Price": "40000",
+      "ImageUrl": "../../img/image2.jpg",
+      "Description": "Motion Panorama, Selfie Flash Water & dust resistant (IP68)"
+    }
+  ]
+}

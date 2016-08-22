@@ -1,0 +1,80 @@
+﻿<div>
+    <div class="form-horizontal">
+        <div class="form-group">
+            <label class="control-label col-xs-2">First Name</label>
+            <div class="col-xs-4">
+                <input type="text" class="form-control"
+                       placeholder="First Name"
+                       ng-model="registerUser.firstName">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-2">Last Name</label>
+            <div class="col-xs-4">
+                <input type="text" class="form-control"
+                       placeholder="Last Name"
+                       ng-model="registerUser.lastName">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-2">Phone Number</label>
+            <div class="col-xs-4">
+                <input type="text" class="form-control"
+                       placeholder="Phone Number"
+                       ng-model="registerUser.phoneNumber">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-2">Email</label>
+            <div class="col-xs-4">
+                <input type="text" class="form-control"
+                       placeholder="email"
+                       ng-model="registerUser.email">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-2">Age</label>
+            <div class="col-xs-4">
+                <input type="text" class="form-control"
+                       placeholder="Age"
+                       ng-model="registerUser.age">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-2">Gender</label>
+            <div class="col-xs-4">
+                <input type="radio"
+                       name="gender"
+                       ng-model="registerUser.gender"
+                       value="M">Male
+                <input type="radio"
+                       name="gender"
+                       ng-model="registerUser.gender"
+                       value="F">Female
+                <input type="radio"
+                       name="gender"
+                       ng-model="registerUser.gender"
+                       value="N">Not Interested
+                {{registerUser.gender}}
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-2">Country</label>
+            <div class="col-xs-4">
+                <select class="form-control"
+                        ng-model="selectedCountry"
+                        ng-options="country.name for country in countries">
+                    <option value="">Please Select</option>
+                </select>{{selectedCountry}}
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-xs-12">
+                <label class="control-label col-xs-2"></label>
+                <div class="col-xs-4">
+                    <button class="btn btn-primary" ng-click="register()">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

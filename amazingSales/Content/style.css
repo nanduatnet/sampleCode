@@ -1,0 +1,19 @@
+body
+{
+   padding-top: 70px;
+}
+
+.thumbnail > img.gadget-img{
+	width: 180px;
+    height: 200px;
+}
+/*p{
+	padding: 50px;
+	font-weight: bold;
+	text-align: center;
+	background: #dbdfe5;
+}*/
+
+.bs-example{
+    margin: 20px;
+}
